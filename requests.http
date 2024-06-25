@@ -1,0 +1,28 @@
+GET http://localhost:3000/tasks
+
+###
+
+GET http://localhost:3000/tasks?sort=oldest&count=3
+
+###
+GET http://localhost:3000/tasks/667a94766c50b9263b617c06
+
+###
+POST http://localhost:3000/tasks
+Content-Type: application/json
+
+{
+    "title": "호",
+    "description": "호텔호텔"
+}
+
+###
+PATCH  http://localhost:3000/tasks/1
+Content-Type: application/json
+
+{
+    "isComplete" : true
+}
+
+###
+DELETE http://localhost:3000/tasks/1
