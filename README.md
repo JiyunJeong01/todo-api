@@ -10,8 +10,8 @@ todo리스트 CRUD 기능
 - `node.js`
 - `WSL`
 - **IDE** : Visual Studio Code
-- **Framework** : Expreses
-- **Database** : mongoose
+- **Framework** : Express.js
+- **Database** : MongoDB (mongoose)
 
 <br><br>
 ## 📌 주요 기능
